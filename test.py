@@ -14,8 +14,10 @@ class Dog:
 
 # Create an instance of the Dog class
 my_dog = Dog("Buddy", 3)
+d=Dog("remo",3)
 
 # Call the methods
 print(my_dog.bark())       # Output: Buddy says woof!
 print(my_dog.get_age())    # Output: Buddy is 3 years old.
+print(d.get_age())
 
