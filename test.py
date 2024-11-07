@@ -23,7 +23,7 @@ class Dog:
 
 
 # Create an instance of the Dog class
-my_dog = Dog("Buddy", 3)
+my_dog = Dog("remo", 8)
 d=Dog("remo",3)
 #d.age()
 d.height()
