@@ -16,6 +16,8 @@ class Dog:
 
     def age(self):
         print(self.age)
+    def height(self):
+        print("Testing")
 
 
 
@@ -24,6 +26,7 @@ class Dog:
 my_dog = Dog("Buddy", 3)
 d=Dog("remo",3)
 #d.age()
+d.height()
 
 # Call the methods
 print(my_dog.bark())       # Output: Buddy says woof!
